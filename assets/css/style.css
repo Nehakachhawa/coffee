@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.bg-coffee {
+    background: #997c4a;
+}
+h1{
+    color: #56330E;
+    font-size: 50px;
+}    
+/*Navbar section start*/
+span.navbar-toggler-icon{
+    color:#fff;
+    background-color:#fff;
+    border-radius:5px;
+}
+.nav-link {
+    color: #ffffffb3;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #fff;
+    font-weight:500;
+}
+.nav-link:hover{
+    color:#fff;
+    transition:color 0.3s ease;
+}
+
+/*Navbar section end*/
+/*Hero Section Start*/
+.hero {
+    width= 100%;
+    color: #fff;
+    background: linear-gradient(#00000080, #00000080), url(../img/logo5.png);
+    background-size: cover;
+    background-position:center center;
+}
+
+.hero .coffee {
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-size: 155px;
+}
+
+
+/*Hero Section end*/
+/*best coffee section start*/
+.best-coffee h1{
+    font-size:46px;
+}
+/*best coffee section end*/
+/*coffee style section start*/
+.bg-card{
+    background:#e3dfdb;
+}
+.coffee-style h1{
+    font-size:43px;
+}
+.coffee-style h5{
+    color:#794810;
+}
+
+/*coffee style section end*/
+/*about section start*/
+.about h3{
+    color:#794810;
+}
+.about.bg-gold{
+    background-color:#ffefd8;
+}
+.about.bg-card{
+    background:#fff9f1;
+}
+/*about section end*/
+/*order section start*/
+width: 100%;
+background: linear-gradient(rgba(119,71,51,0.8),rgba(119,71,51,0.8),url(.));
+background-size:cover;
+background-position:center center;
+color:rgb(119,86,51);
+
+/*order section end*/
+/*feedback section start*/
+.feedback{}
+.carousel-item{
+    top:0px;
+    padding-top:15%;
+
+}
+.carousel-dark.carousel-control-prev-icon{
+    filter:invert(0) grayscale(0);
+}
+.carousel-control-prev{
+    left:8%;
+    right:8%;
+}
+.carousel-control-next{
+    left:77%;
+    right:77%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color:#ffa500;
+    color:#62390d;
+}
+.carousel-control-next-icon{
+    background:color(orange);
+}
+/*feedback section end*/
+/*sub section start*/
+.sub{
+    background:linear-gradient(rgba(119,71,51,0.8),rgba(119,71,51,0.8)),url(../img//)
+}
+/*sub section end*/
+/*footer section start*/
+footer{
+    width:100%;
+    background:linear-gradient(rgba(66,39,28,0.9),rgba(60,35,24,0.7)),url(../img/)
+    background-size: cover;
+    background-position:center center;
+}
+footer h1{
+    font-family:"Clicker Script",cursive;
+    font-size:55px;
+}
+.side{
+    position: absolute;
+    right:0%;
+    top:5%;
+    left:75%;
+}
+.side2{
+    position:absolute;
+    left:0%;
+    top:5%;
+}
+/*footer section end*/
+/*media query*/
+@media secreen and(max-width:767px){
+    .best-coffee h1{
+        font-size:33px;
+    }
+    .coffee-style h1{
+        font-size:30px;
+    }
+}
+@media secreen and(max-width:422px){
+    .best-coffee h1{
+        font-size:24px;
+    }
+    .coffee-style h1{
+        font-size:21px;
+    }
+    .hero.coffee{
+        font-family:"Clicker Script",cursive;
+        font-size:10px;
+    }
+}
+@media secreen and (max-width:320px){
+    .best-coffee h1{
+        font-size:22px;
+    }
+    .coffee-style h1{
+        font-size:19px;
+    }
+}
+/*media query*/
